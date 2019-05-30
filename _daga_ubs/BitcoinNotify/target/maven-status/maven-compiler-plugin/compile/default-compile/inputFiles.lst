@@ -1,0 +1,15 @@
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\entity\Alert.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\rest\service\LimitationService.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\dao\AlertStore.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\websocket\service\PushMarketDataService.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\websocket\service\AlertService.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\entity\MessageEncoderTest.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\entity\MessageDecoderTest.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\dao\ThirdPartiesActors.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\websocket\service\PushMarketDataServiceTest.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\entity\MessageDecoder.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\entity\Message.java
+C:\_Workspaces\BitcoinNotify\src\main\info\skrzypczak\dagmara\entity\MessageEncoder.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\dao\AlertStoreTest.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\websocket\service\AlertServiceTest.java
+C:\_Workspaces\BitcoinNotify\src\test\info\skrzypczak\dagmara\rest\service\LimitationServiceTest.java

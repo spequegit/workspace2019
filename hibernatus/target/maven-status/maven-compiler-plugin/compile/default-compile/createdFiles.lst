@@ -1,0 +1,8 @@
+com\hibernatus\service\PersonService.class
+com\hibernatus\MainApp.class
+com\hibernatus\dao\PersonDaoImpl.class
+com\hibernatus\Hibernatus.class
+com\hibernatus\dao\PersonDao.class
+com\hibernatus\service\PersonServiceImpl.class
+com\hibernatus\config\AppConfig.class
+com\hibernatus\entity\Person.class

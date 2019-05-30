@@ -1,0 +1,16 @@
+test\info\skrzypczak\dagmara\websocket\service\AlertServiceTest.class
+main\info\skrzypczak\dagmara\entity\Alert.class
+main\info\skrzypczak\dagmara\dao\ThirdPartiesActors.class
+main\info\skrzypczak\dagmara\entity\Message$MessageBuilder.class
+main\info\skrzypczak\dagmara\websocket\service\AlertService.class
+main\info\skrzypczak\dagmara\websocket\service\PushMarketDataService.class
+main\info\skrzypczak\dagmara\entity\MessageDecoder.class
+test\info\skrzypczak\dagmara\dao\AlertStoreTest.class
+main\info\skrzypczak\dagmara\dao\AlertStore.class
+test\info\skrzypczak\dagmara\websocket\service\PushMarketDataServiceTest.class
+test\info\skrzypczak\dagmara\rest\service\LimitationServiceTest.class
+test\info\skrzypczak\dagmara\entity\MessageEncoderTest.class
+main\info\skrzypczak\dagmara\entity\MessageEncoder.class
+main\info\skrzypczak\dagmara\entity\Message.class
+main\info\skrzypczak\dagmara\rest\service\LimitationService.class
+test\info\skrzypczak\dagmara\entity\MessageDecoderTest.class

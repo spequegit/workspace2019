@@ -1,0 +1,1 @@
+sudo java -cp /home/pi/PiLed/PiLed-1.0-SNAPSHOT-jar-with-dependend.LedPwm com.pi.led.LedPwm
