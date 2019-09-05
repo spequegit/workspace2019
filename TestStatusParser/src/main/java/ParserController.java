@@ -22,10 +22,11 @@ public class ParserController {
         Desktop.getDesktop().open(new File(XLSX));
     }
 
+
     private void process() {
         try {
             reportRetriever = new ReportRetriever();
-            BufferedReader resultLast = reportRetriever.retrieve("1100");
+            BufferedReader resultLast = reportRetriever.retrieve("1384");
             BufferedReader result = reportRetriever.retrieve("lastSuccessfulBuild");
             Map<RecordKey, ReportRecord> parsedLast = parse(resultLast, -1);
             Map<RecordKey, ReportRecord> parsed = parse(result, 0);

@@ -69,10 +69,23 @@ public class ApachePOIExcelWrite {
         cellRangeAddressList.addCellRangeAddress(CellRangeAddress.valueOf("A1"));
         sheet.setAutoFilter(CellRangeAddress.valueOf("A1:L1"));
 
-        sheet.setColumnWidth(5,5*256);  // 5 characters
-        sheet.setColumnWidth(7,5*256);
-        sheet.setColumnWidth(9,5*256);
-        sheet.setColumnWidth(11,5*256);
+        sheet.setColumnWidth(5,8*256);  // 5 characters
+        sheet.setColumnWidth(7,8*256);
+        sheet.setColumnWidth(9,8*256);
+        sheet.setColumnWidth(11,8*256);
+
+        sheet.setColumnWidth(0,20*256);
+        sheet.setColumnWidth(1,16*256);
+        sheet.setColumnWidth(2,12*256);
+        sheet.setColumnWidth(3,12*256);
+        sheet.setColumnWidth(4,12*256);
+        sheet.setColumnWidth(6,12*256);
+        sheet.setColumnWidth(8,12*256);
+        sheet.setColumnWidth(10,12*256);
+        sheet.setColumnWidth(12,12*256);
+        sheet.setColumnWidth(13,12*256);
+
+
 
         for (ReportRecord record : records) {
             rowNum = createRow(rowNum, sheet, record);
@@ -118,16 +131,16 @@ public class ApachePOIExcelWrite {
                 style.setAlignment(HorizontalAlignment.CENTER);
                 style.setVerticalAlignment(VerticalAlignment.TOP);
                 style.setBorderBottom(BorderStyle.THIN);
+                XSSFFont font = createFont(null);
+                font.setFontHeight(12);
+                style.setFont(font);
             } else if (record.getType() == RecordType.DEVELOPMENT && column == 1) {
                 style = createStyle(COLOR_COLUMN_1);
                 style.setAlignment(HorizontalAlignment.CENTER);
-//                style.setBorderRight(BorderStyle.THIN);
             } else if (column == 1) {
                 style = createStyle(COLOR_DEVELOPMENT);
-//                style.setBorderRight(BorderStyle.THIN);
                 style.setAlignment(HorizontalAlignment.CENTER);
             } else if (record.getWeek() == -1) {
-//                row.setHeight((short) 200);
                 style = createStyle(null);
                 style.setFont(createFont(COLOR_FONT_GREY));
             } else if (compareLast(record, column) == 1) {
@@ -148,7 +161,7 @@ public class ApachePOIExcelWrite {
         if (c != null) {
             font.setColor(new XSSFColor(c));
         }
-        font.setFontHeight(8);
+        font.setFontHeight(18);
         return font;
     }
 
